@@ -7,42 +7,44 @@
     
 
 .rightone ,.righttwo ,.lefttwo ,.leftone{
-    width:45%;
-    height: 45%; 
+    width:48%;
+    height: 48%; 
     border: 1px solid black ;
 }
   
 
 .rightone{
     float:right;
+   
+   
   
 }
 
 .a1,.a3{
     background-color: rgb(177, 177, 70);
     height:20%;
-    width:80%;
+    width:90%;
     border:1px solid black;
     margin: 5%;
 
 }
 .a2{
     clear: both;
-    height:10%;
+    height:20%;
     margin-top:5%;
-    border:1px solid black;
+  
     margin: 2%;
 width:96%;
     
 }
 .aa1{
     float:left;
-    margin-left: 5%;
+    margin-left: 3%;
 
 }
 .aa2{
     float:right;
-    margin-right: 15%;
+    margin-right: 3%;
 
 }
 .aa1,.aa2
@@ -56,12 +58,7 @@ width:96%;
     
 }
 
-    
-
-.leftone{
-    float: left;
-   
-}
+  
 
 .lefttwo{
     clear:both;
@@ -86,9 +83,10 @@ width:96%;
 .jjjj{
 float:left;
 margin-left: 15%;
-border: 1px solid black;
+
 height:100%;
 width:20%;
+
 
 }
 
@@ -99,9 +97,9 @@ width:20%;
 }
 .j2,.j3{
     background-color: rgb(94, 94, 114);
-    height: 30%;
-    width: 95%;
-    margin:2%;
+    height:40%;
+    width: 100%;
+  
  
 
 }
@@ -113,56 +111,84 @@ width:20%;
     
 }
 .j2{
-    margin-bottom: 2%;
-    margin-top: 60px;
-    clear: both;
+    margin-top: 12%;
+    
+ 
 }
 .j3{
-    margin-top: 100%;
+    clear:both;
+    margin-top: 80px;
 }
 
+/* leftone css */
+  
 
+.leftone{
+    float: left;
+   
+}
 
-.one,.four,.double{
-    width:30%;
+.one,.four{
+    width:32%;
+
+    height: 33%; 
+    float: left;
+    border: 1px solid black ;
+
+}
+
+.double{
+    width:32%;
 
     height: 98%; 
     float: left;
     border: 1px solid black ;
-    margin: 1%;
+
 }
 
 
+
 .two,.three{
-    width:97%;
-   
-    border: 1px solid black ;
-    margin:1%;
-    
-
+    width:100%;
+   height: 33%;
+ 
+     
+     border: 1px solid black ;
+}
+     .one{
+        margin-left:1%;
+     }
+     .two{
+      margin-top: 0%;
+      
      }
 
-.two{
-    float: left;
-margin-bottom:70% ;
-
-     }
 .three{
-    clear: both; 
-    
+    clear: both;
+    margin-top: 92%;
+
     
     }
+
     .one,.two,.three,.four{
         background-color: rgb(217, 169, 198);
-        height:30%;
+        height:33%;
     
     }
     .one, .four{
-        margin-top: 25%;
+        margin-top: 29%;
+        margin-bottom: 29%;
     }
     
+.four{
+    float: left;
+ 
+}
+  
 
-    /* right two css */
+
+
+/* right two css */
 
 
     .righttwo{ 
